@@ -1,0 +1,119 @@
+// Written by Eric Dee
+// To keep readability assume that classes are of type div unless interrupted with a specifier
+// Variables are defined once in the top level reset stylesheet
+
+main.ServicesBar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid rgba(1, 2, 3, 0.81);
+  margin-left: 3px;
+  margin-right: 9px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+
+  .TopServicesBarAlignment {
+    position: relative;
+
+    height: 100%;
+
+    width: 100%;
+  }
+
+  .ToServicesBar {
+    width: 81%;
+    margin: 0 auto;
+    height: 49px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 16% 25% 36% 23%;
+
+    .TopBarServiceWrapper {
+      height: 100%;
+      width: 100%;
+      padding: 4px 16px;
+      display: flex;
+      align-items: center;
+
+      /*
+      * Section 1
+      */
+
+      & .TopNavigatorLeft {
+        width: 16%;
+        & span.Logo {
+          margin-left: -256%;
+          font-weight: 600;
+          color: rgba($color: #023809, $alpha: 1);
+        }
+      }
+
+      & .TopNavigatorRight {
+        width: 100%;
+      }
+
+      & .TopNavigationInserts {
+        width: 100%;
+        .TopNavigationInsert {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          input.URLInput {
+            width: 100%;
+          }
+        }
+      }
+
+      /*
+      * Section 2
+      */
+
+      & .QueryTypes {
+        width: 100%;
+        display: flex;
+        span.QueryType {
+          width: 25%;
+        }
+        select#query_types {
+          width: 100%;
+        }
+      }
+
+      /*
+      * Section 3
+      */
+
+      & .RequestTypes {
+        width: 100%;
+        display: flex;
+        span.RequestType {
+          width: 36%;
+        }
+        & select#request_types {
+          width: 100%;
+        }
+      }
+
+      /*
+      * Section 4
+      */
+
+      & .Endpoint {
+        width: 100%;
+        display: flex;
+        span.EndpointText {
+          width: 16%;
+        }
+        pre {
+          margin-left: 4%;
+        }
+        input.EndpointInput {
+          width: 81%;
+        }
+        button {
+          width: 25%;
+        }
+      }
+    }
+  }
+}

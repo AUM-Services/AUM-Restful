@@ -1,0 +1,19 @@
+// Written by Eric Dee
+// To keep readability assume that classes are of type div unless interrupted with a specifier
+// Variables are defined once in the top level reset stylesheet
+
+section.ImageHeader {
+  position: relative;
+  margin-left: 81%;
+
+  img.SignFront {
+    height: 256px;
+  }
+}
+
+section#RestlineGridBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 16% 25% 41%;
+  padding: 256px;
+}

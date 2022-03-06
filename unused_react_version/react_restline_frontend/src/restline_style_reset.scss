@@ -1,0 +1,21 @@
+// Written by Eric Dee
+// To keep readability assume that classes are of type div unless interrupted with a specifier
+// Variables are defined once in the top level reset stylesheet
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 200;
+
+  --white: rgba(251, 252, 253, 1);
+}
+
+body {
+  background-color: var(--white);
+  overflow-x: hidden;
+}

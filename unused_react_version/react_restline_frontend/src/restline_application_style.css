@@ -1,0 +1,18 @@
+section.ImageHeader {
+  position: relative;
+  margin-left: 81%;
+}
+
+section.ImageHeader img.SignFront {
+  height: 256px;
+}
+
+section#RestlineGridBox {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16% 25% 41%;
+      grid-template-columns: 16% 25% 41%;
+  padding: 256px;
+}
+/*# sourceMappingURL=restline_application_style.css.map */

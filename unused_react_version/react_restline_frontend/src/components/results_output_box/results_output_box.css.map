@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,AAAA,iBAAiB,CAAC;EACpB,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "results_output_box.scss"
+    ],
+    "names": [],
+    "file": "results_output_box.css"
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] • Restline</title>
+	<link rel="stylesheet" href="~/css/restline_layout.css" asp-append-version="true" />
+</head>
+<body>
+	<!--Due to query-ability, needs to utilize partials to determine headers. Not yet implemented-->
+	<div class="container">
+		<main role="main">
+			@RenderBody()
+
+			<section class="Artwork GridValue MatchingOutlines">
+				<img src="Artwork/sign_front_by_eric_dee.png" id="SignFront" />
+			</section>
+		</main>
+	</div>
+
+	<footer>
+		<section class="MatchingOutlines">
+			&copy; 2022 - restline.io
+		</section>
+	</footer>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
