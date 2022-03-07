@@ -1,6 +1,10 @@
 ﻿[
   {
-    "outputFile": "wwwroot/css/restline_layout.css",
-    "inputFile": "wwwroot/css/restline_layout.scss"
+    "outputFile": "wwwroot/css/default_layout.css",
+    "inputFile": "wwwroot/css/default_layout.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/content_rendering.css",
+    "inputFile": "wwwroot/css/content_rendering.scss"
   }
 ]

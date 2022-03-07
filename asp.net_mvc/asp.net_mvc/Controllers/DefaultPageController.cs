@@ -4,11 +4,11 @@ using System.Diagnostics;
 
 namespace asp.net_mvc.Controllers
 {
-    public class HomeController : Controller
+    public class DefaultPageController : Controller
     {
         public IActionResult Index()
         {
-            return View("RestlineHomePage");
+            return View("DefaultPage");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

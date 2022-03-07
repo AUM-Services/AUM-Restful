@@ -24,6 +24,10 @@ body .GridValue {
   display: grid;
   grid-template-columns: 9% 16% 25% 36% 14%;
 }
+body .Grid4951 {
+  display: grid;
+  grid-template-columns: 49% 51%;
+}
 body .MatchingOutlines {
   padding: 16px;
   border-right: 1px dashed var(--outlines);
@@ -35,23 +39,23 @@ body .MatchingInlines {
   border: 1px solid var(--inlines);
   background-color: transparent;
 }
-body .QueryBar * {
+body .Querybar * {
   padding: 1%;
   width: 100%;
 }
-body .QueryBar button {
+body .Querybar button {
   border-top: 1px solid var(--white);
   border-bottom: 1px solid var(--white);
   border-left: none !important;
   border-right: none !important;
-  height: 256%;
+  height: 100%;
   background-color: rgba(81, 81, 81, 0.16) !important;
 }
-body .QueryBar #WrappedEndpoint {
+body .Querybar #Wrapped_Endpoint {
   width: 625%;
   margin-left: 100%;
 }
-body #SignFront {
+body #Sign_Front {
   width: 100%;
 }
 body footer {

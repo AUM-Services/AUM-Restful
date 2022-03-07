@@ -30,6 +30,11 @@ body {
         grid-template-columns: 9% 16% 25% 36% 14%;
     }
 
+    & .Grid4951 {
+        display: grid;
+        grid-template-columns: 49% 51%;
+    }
+
     & .MatchingOutlines {
         padding: 16px;
         border-right: 1px dashed var(--outlines);
@@ -45,7 +50,7 @@ body {
 
     /* • The query bar • */
 
-    & .QueryBar {
+    & .Querybar {
 
         & * {
             padding: 1%;
@@ -57,11 +62,11 @@ body {
             border-bottom: 1px solid var(--white);
             border-left: none !important;
             border-right: none !important;
-            height: 256%;
+            height: 100%;
             background-color: rgba(81, 81, 81, .16) !important;
         }
 
-        & #WrappedEndpoint {
+        & #Wrapped_Endpoint {
             width: 625%;
             margin-left: 100%;
         }
@@ -71,7 +76,7 @@ body {
 
     /* ^>v<v The content slider (experimental) v>v<^ */
 
-    #SignFront {
+    #Sign_Front {
         width: 100%;
     }
 

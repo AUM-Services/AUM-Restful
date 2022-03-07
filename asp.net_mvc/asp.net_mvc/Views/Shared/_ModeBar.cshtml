@@ -1,14 +1,10 @@
-﻿@{
-	ViewData["Title"] = "Home Page";
-}
-
-<header>
-	<nav class="QueryBar GridValue">
+﻿<header>
+	<nav class="Querybar GridValue">
 		<section id="Logo" class="MatchingOutlines">
-			<span>Restline</span>
+			<span>Mode</span>
 		</section>
 		<section id="URL" class="MatchingOutlines">
-			<input type="text" placeholder="URL" class="MatchingInlines"/>
+			<input id="URL_Input" type="text" placeholder="URL" class="MatchingInlines"/>
 		</section>
 		<section id="Group" class="MatchingOutlines">
 			<select name="GroupName" class="MatchingInlines">
@@ -16,7 +12,7 @@
 				<option value="RestHTTP">Rest HTTP</option>
 			</select>
 		</section>
-		<section id="QueryClass" class="MatchingOutlines">
+		<section id="Query_Class" class="MatchingOutlines">
 			<select name="QueryClassName" class="MatchingInlines">
 				<option value="Get">Get</option>
 				<option value="Post">Post</option>
@@ -24,11 +20,11 @@
 				<option value="Delete">Delete</option>
 			</select>
 		</section>
-		<section id="InputsSender" class="MatchingOutlines">
-			<button id="QueryBarSender" class="MatchingInlines">Send</button>
+		<section id="Inputs_Sender" class="MatchingOutlines">
+			<button id="Querybar_Sender" class="MatchingInlines">Send</button>
 		</section>
-		<section id="WrappedEndpoint" class="MatchingOutlines">
-			<input type="Text" placeholder="Endpoint" class="MatchingInlines"/>
+		<section id="Wrapped_Endpoint" class="MatchingOutlines">
+			<input id="Endpoint_Input" type="Text" placeholder="Endpoint" class="MatchingInlines"/>
 		</section>
 	</nav>
 </header>
