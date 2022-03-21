@@ -1,1 +1,1 @@
-# Intended to interact with symbolicdatabase.com and other projects I work on.
+# Intended to interact with various projects that I work on.
