@@ -12,11 +12,21 @@
 	<div class="container">
 		<main role="main">
 
-			@{await Html.RenderPartialAsync("_ModeBar");}
-			
+			@{
+				await Html.RenderPartialAsync("_ModeBar");
+			}
+
+			<section class="GridValue MatchingOutlines">
+				<div></div>
+				<div></div>
+				<img id="Logo" src="./images/AUM outer layer logo.png">
+			</section>
+
 			@RenderBody()
 
-			@{await Html.RenderPartialAsync("_ContentRendering");}
+			@{
+				await Html.RenderPartialAsync("_ContentRendering");
+			}
 
 		</main>
 	</div>

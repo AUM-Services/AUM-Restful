@@ -43,6 +43,9 @@ body .Querybar * {
   padding: 1%;
   width: 100%;
 }
+body .Querybar span.Blue {
+  color: rgba(81, 100, 121, 0.81);
+}
 body .Querybar button {
   border-top: 1px solid var(--white);
   border-bottom: 1px solid var(--white);
@@ -55,7 +58,7 @@ body .Querybar #Wrapped-Endpoint {
   width: 625%;
   margin-left: 100%;
 }
-body #Sign-Front {
+body img#Logo {
   width: 100%;
 }
 body footer {

@@ -57,6 +57,10 @@ body {
             width: 100%;
         }
 
+        & span.Blue {
+            color: rgba(81, 100, 121, .81);
+        }
+
         & button {
             border-top: 1px solid var(--white);
             border-bottom: 1px solid var(--white);
@@ -76,7 +80,7 @@ body {
 
     /* ^>v<v The content slider (experimental) v>v<^ */
 
-    #Sign-Front {
+    img#Logo {
         width: 100%;
     }
 
