@@ -7,13 +7,13 @@
 		<input id="URL-Input" type="text" placeholder="URL" class="MatchingInlines"/>
 	</div>
 	<div id="Group">
-		<select name="GroupName" class="MatchingInlines">
+		<select name="Group" class="MatchingInlines">
 			<option value="RestHTTPS">Rest HTTPS</option>
 			<option value="RestHTTP">Rest HTTP</option>
 		</select>
 	</div>
 	<div id="Query-Class">
-		<select name="QueryClassName" class="MatchingInlines">
+		<select name="Query_Class" class="MatchingInlines">
 			<option value="Get">Get</option>
 			<option value="Post">Post</option>
 			<option value="Put">Put</option>
@@ -37,7 +37,7 @@
 	<div></div>
 	<img id="Logo" src="./images/AUM outer layer logo.png">
 	<div id ="ParameterBox">
-		<textarea class="MatchingInlines">Placeholder</textarea>
+		<textarea class="MatchingInlines">{"Site": "aumrestful.com"}</textarea>
 	</div>
 	<div class="BaffleContainer">
 		<nav>
@@ -62,6 +62,10 @@
 
 	<div id="Operational-Content-Render" class="NaturalResponseContent">
 		<h3>Input:</h3>
+		<select name="Query_Builder_Types" size="2" class="MatchingInlines">
+			<option value="" selected>Use JSON</option>
+			<option value="">Use variables</option>
+		</select>
 	</div>
 
 	<div id="Request-Responses">

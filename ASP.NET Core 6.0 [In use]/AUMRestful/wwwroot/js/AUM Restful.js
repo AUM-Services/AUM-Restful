@@ -44,7 +44,7 @@ var mockJSONResponse =
 {
     "Response": {
         "Name": "Eric",
-        "Site": "aumono.com",
+        "Site": "aumrestful.com",
         "Copyright": "2022",
         "Art": "aumono.art",
         "Blog": "aumono.blog"

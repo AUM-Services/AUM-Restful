@@ -86,6 +86,21 @@ body #Home-Navigator, body #Updates-Navigator, body #Send-Navigator {
 body #Home-Navigator:hover, body #Updates-Navigator:hover, body #Send-Navigator:hover {
   cursor: pointer;
 }
+body #Operational-Content-Render select {
+  overflow: hidden;
+  width: 25%;
+}
+body #Operational-Content-Render select option:checked {
+  background: var(--grey);
+  color: var(--white);
+}
 body footer {
   text-align: center;
+}
+body button {
+  border-radius: 16% !important;
+}
+body ::selection {
+  background: var(--grey);
+  color: var(--white);
 }

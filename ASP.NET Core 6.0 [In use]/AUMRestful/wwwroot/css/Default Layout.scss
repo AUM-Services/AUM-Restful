@@ -2,18 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     // Variables:
-    
     // Constant
     --white: rgba(251,252,253, .81);
     --black: rgba(0, 1, 2, .81);
     --grey: rgba(81,81,81, .81);
-
     // Definitive
     --outlines: var(--grey);
     --inlines: var(--white);
-    
     // End of variables
 
     font-size: 16px;
@@ -108,10 +104,31 @@ body {
     }
     /* End of the feature lists */
     /* The function boxes */
+
+    #Operational-Content-Render {
+        & select {
+            overflow: hidden;
+            width: 25%;
+
+            & option:checked {
+                background: var(--grey);
+                color: var(--white);
+            }
+        }
+    }
     /* Endo fo the function boxes */
     /* • The footer • */
 
     footer {
         text-align: center;
+    }
+
+    button {
+        border-radius: 16% !important;
+    }
+
+    ::selection {
+        background: var(--grey);
+        color: var(--white);
     }
 }
