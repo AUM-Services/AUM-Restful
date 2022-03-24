@@ -1,6 +1,6 @@
 ﻿// Copyright aumono.com - 2022
 
-import "./json-formatter-js/dist/json-formatter.umd.js"
+import "./Ext-Dependencies/json-formatter-js/dist/json-formatter.umd.js"
 
 let OutputFormatter;
 

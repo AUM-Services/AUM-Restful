@@ -1,30 +1,64 @@
-﻿<header>
-	<nav class="Querybar GridValue">
-		<section id="Logo" class="MatchingOutlines">
-			<span class="Blue">Mode:</span><span>Restful</span>
-		</section>
-		<section id="URL" class="MatchingOutlines">
-			<input id="URL-Input" type="text" placeholder="URL" class="MatchingInlines"/>
-		</section>
-		<section id="Group" class="MatchingOutlines">
-			<select name="GroupName" class="MatchingInlines">
-				<option value="RestHTTPS">Rest HTTPS</option>
-				<option value="RestHTTP">Rest HTTP</option>
-			</select>
-		</section>
-		<section id="Query-Class" class="MatchingOutlines">
-			<select name="QueryClassName" class="MatchingInlines">
-				<option value="Get">Get</option>
-				<option value="Post">Post</option>
-				<option value="Put">Put</option>
-				<option value="Delete">Delete</option>
-			</select>
-		</section>
-		<section id="Inputs-Sender" class="MatchingOutlines">
-			<button id="Querybar_Sender" class="MatchingInlines">Send</button>
-		</section>
-		<section id="Wrapped-Endpoint" class="MatchingOutlines">
-			<input id="Endpoint-Input" type="Text" placeholder="Endpoint" class="MatchingInlines"/>
-		</section>
-	</nav>
-</header>
+﻿<section class="Querybar GridValue MatchingOutlines">
+
+	<div id="Logo">
+		<span class="Blue">Mode:</span><span>Restful</span>
+	</div>
+	<div id="URL">
+		<input id="URL-Input" type="text" placeholder="URL" class="MatchingInlines"/>
+	</div>
+	<div id="Group">
+		<select name="GroupName" class="MatchingInlines">
+			<option value="RestHTTPS">Rest HTTPS</option>
+			<option value="RestHTTP">Rest HTTP</option>
+		</select>
+	</div>
+	<div id="Query-Class">
+		<select name="QueryClassName" class="MatchingInlines">
+			<option value="Get">Get</option>
+			<option value="Post">Post</option>
+			<option value="Put">Put</option>
+			<option value="Delete">Delete</option>
+		</select>
+	</div>
+	<div id="Inputs-Sender">
+		<button id="Querybar_Sender" class="MatchingInlines">Send</button>
+	</div>
+	<div id="Wrapped-Endpoint">
+		<input id="Endpoint-Input" type="Text" placeholder="Endpoint" class="MatchingInlines"/>
+	</div>
+
+</section>
+
+<section class="Artwork GridValue MatchingOutlines">
+
+	<div></div>
+	<img id="Logo" src="./images/AUM outer layer logo.png">
+	<div></div>
+	<div class="BaffleContainer">
+		<nav>
+		<span id="DefaultFieldText">_ _ _ _ _ _ _ _</span>
+		<span>Home</span>
+		<br />
+		<span id="DefaultFieldText">_ _ _ _ _ _ _ _</span>
+		<span>Updates</span>
+		<br />
+		</nav>
+	</div>
+
+</section>
+
+<section class="FunctionBox Grid4951 MatchingOutlines">
+
+	<div id="Operational-Content-Render" class="NaturalResponseContent">
+		Test string
+	</div>
+
+	<div id="Request-Responses">
+		<h2>Output:</h2>
+		<div id="Response-Content-Render" class="DarkenedResponseContent"></div>
+	</div>
+
+</section>
+
+<script type="module" src="~/js/Mode Bar.js" asp-append-version="true"></script>
+<script type="module" src="~/js/Default Page.js" asp-append-version="true"></script>

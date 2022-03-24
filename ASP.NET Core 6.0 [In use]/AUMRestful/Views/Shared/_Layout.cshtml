@@ -9,28 +9,18 @@
 </head>
 <body>
 	<!--Due to query-ability, needs to utilize partials to determine headers. Not yet implemented-->
-	<div class="container">
-		<main role="main">
+	<main role="main">
 
-			@{
-				await Html.RenderPartialAsync("_ModeBar");
-			}
+		@RenderBody()
 
-			@RenderBody()
-
-			@{
-				await Html.RenderPartialAsync("_ContentRendering");
-			}
-
-		</main>
-	</div>
+	</main>
 
 	<footer>
 		<section class="MatchingOutlines">
 			&copy; 2022 - aumrestful.com
 		</section>
 	</footer>
-	<script type="module" src="~/js/Bar Main.js" asp-append-version="true"></script>
+
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

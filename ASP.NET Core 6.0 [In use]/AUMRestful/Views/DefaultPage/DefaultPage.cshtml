@@ -1,6 +1,9 @@
-﻿@{
-	ViewData["Title"] = "Home Bar";
+﻿@*Copyright aumono.com - 2022*@
+
+@{
+	ViewData["Title"] = "Default Mode";
 }
 
-<section class="Artwork MatchingOutlines">
-</section>
+@{
+	await Html.RenderPartialAsync("_ModeBar");
+}
