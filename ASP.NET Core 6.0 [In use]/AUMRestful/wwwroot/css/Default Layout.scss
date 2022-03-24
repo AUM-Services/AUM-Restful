@@ -22,7 +22,6 @@
 
 body {
     background-color: var(--black);
-
     /* Main values */
 
     & .GridValue {
@@ -36,20 +35,19 @@ body {
     }
 
     & .MatchingOutlines {
-        padding: 16px;
-        border-radius: 16px;
+        padding: 4%;
+        border-radius: 4%;
         border-right: 1px dashed var(--outlines);
         border-bottom: 1px dashed var(--outlines);
         background-color: transparent;
     }
 
     & .MatchingInlines {
-        padding: 4px;
-        border-radius: 4px;
+        padding: 1%;
+        border-radius: 1%;
         border: 1px solid var(--inlines);
         background-color: transparent;
     }
-
     /* • The query bar • */
 
     & .Querybar {
@@ -59,7 +57,7 @@ body {
             width: 100%;
         }
 
-        & span.Blue {
+        & .Blue {
             color: rgba(81, 100, 121, .81);
         }
 
@@ -77,15 +75,40 @@ body {
             margin-left: 100%;
         }
     }
-
     /* End of the query bar */
+    /* The feature lists */
 
-    /* ^>v<v The content slider (experimental) v>v<^ */
-
-    img#Logo {
+    #Logo {
         width: 100%;
     }
 
+    #ParameterBox {
+        height: 256%;
+        margin-left: 16%;
+        margin-right: 12%;
+
+        & textarea {
+            height: 100%;
+            width: 100%;
+            background: rgba(81,81,81, 1);
+            resize: none;
+        }
+    }
+
+    #Default-Buttons-Nav-Container {
+        margin-top: 4%;
+    }
+
+    #Home-Navigator, #Updates-Navigator, #Send-Navigator {
+        padding: 1%;
+    }
+
+    #Home-Navigator:hover, #Updates-Navigator:hover, #Send-Navigator:hover {
+        cursor: pointer;
+    }
+    /* End of the feature lists */
+    /* The function boxes */
+    /* Endo fo the function boxes */
     /* • The footer • */
 
     footer {

@@ -17,7 +17,10 @@ body {
   /* Main values */
   /* • The query bar • */
   /* End of the query bar */
-  /* ^>v<v The content slider (experimental) v>v<^ */
+  /* The feature lists */
+  /* End of the feature lists */
+  /* The function boxes */
+  /* Endo fo the function boxes */
   /* • The footer • */
 }
 body .GridValue {
@@ -29,15 +32,15 @@ body .Grid4951 {
   grid-template-columns: 49% 51%;
 }
 body .MatchingOutlines {
-  padding: 16px;
-  border-radius: 16px;
+  padding: 4%;
+  border-radius: 4%;
   border-right: 1px dashed var(--outlines);
   border-bottom: 1px dashed var(--outlines);
   background-color: transparent;
 }
 body .MatchingInlines {
-  padding: 4px;
-  border-radius: 4px;
+  padding: 1%;
+  border-radius: 1%;
   border: 1px solid var(--inlines);
   background-color: transparent;
 }
@@ -45,7 +48,7 @@ body .Querybar * {
   padding: 1%;
   width: 100%;
 }
-body .Querybar span.Blue {
+body .Querybar .Blue {
   color: rgba(81, 100, 121, 0.81);
 }
 body .Querybar button {
@@ -60,8 +63,28 @@ body .Querybar #Wrapped-Endpoint {
   width: 625%;
   margin-left: 100%;
 }
-body img#Logo {
+body #Logo {
   width: 100%;
+}
+body #ParameterBox {
+  height: 256%;
+  margin-left: 16%;
+  margin-right: 12%;
+}
+body #ParameterBox textarea {
+  height: 100%;
+  width: 100%;
+  background: #515151;
+  resize: none;
+}
+body #Default-Buttons-Nav-Container {
+  margin-top: 4%;
+}
+body #Home-Navigator, body #Updates-Navigator, body #Send-Navigator {
+  padding: 1%;
+}
+body #Home-Navigator:hover, body #Updates-Navigator:hover, body #Send-Navigator:hover {
+  cursor: pointer;
 }
 body footer {
   text-align: center;

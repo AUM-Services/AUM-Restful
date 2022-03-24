@@ -20,8 +20,11 @@
 			<option value="Delete">Delete</option>
 		</select>
 	</div>
-	<div id="Inputs-Sender">
-		<button id="Querybar_Sender" class="MatchingInlines">Send</button>
+	<div id="Input-History">
+		<select name="URL_History" class="MatchingInlines">
+			<option value="" disabled selected>History</option>
+			<option value="" disabled>Empty</option>
+		</select>
 	</div>
 	<div id="Wrapped-Endpoint">
 		<input id="Endpoint-Input" type="Text" placeholder="Endpoint" class="MatchingInlines"/>
@@ -33,15 +36,23 @@
 
 	<div></div>
 	<img id="Logo" src="./images/AUM outer layer logo.png">
-	<div></div>
+	<div id ="ParameterBox">
+		<textarea class="MatchingInlines">Placeholder</textarea>
+	</div>
 	<div class="BaffleContainer">
 		<nav>
-		<span id="DefaultFieldText">_ _ _ _ _ _ _ _</span>
-		<span>Home</span>
-		<br />
-		<span id="DefaultFieldText">_ _ _ _ _ _ _ _</span>
-		<span>Updates</span>
-		<br />
+			<div id="Default-Buttons-Nav-Container">
+				<span id="Default-Home-Button-Left">_ _ _ _ _ _ _ _</span>
+				<button id="Home-Navigator" class="MatchingInlines">Home</button>
+			</div>
+			<div id="Default-Buttons-Nav-Container">
+				<span id="Default-Updates-Button-Left">_ _ _ _ _ _ _ _</span>
+				<button id="Updates-Navigator" class="MatchingInlines">Updates</button>
+			</div>			
+			<div id="Default-Buttons-Nav-Container">
+				<span id="Default-Send-Button-Left">_ _ _ _ _ _ _ _</span>
+				<button id="Send-Navigator" class="MatchingInlines">Send</button>
+			</div>
 		</nav>
 	</div>
 
@@ -50,15 +61,14 @@
 <section class="FunctionBox Grid4951 MatchingOutlines">
 
 	<div id="Operational-Content-Render" class="NaturalResponseContent">
-		Test string
+		<h3>Input:</h3>
 	</div>
 
 	<div id="Request-Responses">
-		<h2>Output:</h2>
+		<h4>Output:</h4>
 		<div id="Response-Content-Render" class="DarkenedResponseContent"></div>
 	</div>
 
 </section>
 
 <script type="module" src="~/js/Mode Bar.js" asp-append-version="true"></script>
-<script type="module" src="~/js/Default Page.js" asp-append-version="true"></script>
