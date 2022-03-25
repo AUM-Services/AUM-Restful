@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAIA,OAAO,CAAC,mGAAI;AAEZ,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,uBAAuB;EACpC,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAEhB,OAAO,CAAA,uBAAC;CACT;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,YAAY;EAC9B,UAAU,EAAE,MAAM;CACnB",
-    "sources": [
-        "restline_style_reset.scss"
-    ],
-    "names": [],
-    "file": "restline_style_reset.css"
-}

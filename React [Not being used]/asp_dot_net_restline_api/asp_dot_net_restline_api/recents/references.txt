@@ -1,3 +1,0 @@
-﻿dotnet ef migrations add FirstMigration -o "recents/migrations"
-dotnet ef migrations remove
-dotnet ef database update
