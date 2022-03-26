@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkdldv1NsnFXB0iaYS0J8NOAfyBzCDU3ry7YSoDxYSiY7v66AAuXEUAvXR0kWILs0LxBunHtQX3BjMjjGt/sUQ==",
+  "dgSpecHash": "230iKxbfZC0ik2nqo1/L4Ybm9QqZxWhlFHAb9sH5BVLMLj1Q33qwPKNLfXDQD/thFYi1FFTN1CdcQtbFjRSU+g==",
   "success": true,
-  "projectFilePath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0 [In use]\\AUMRestful\\AUMRestful.csproj",
+  "projectFilePath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0\\AUMRestful\\AUMRestful.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eric_\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\eric_\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

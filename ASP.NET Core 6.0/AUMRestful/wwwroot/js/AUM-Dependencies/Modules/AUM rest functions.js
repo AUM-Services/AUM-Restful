@@ -1,10 +1,10 @@
-﻿// Copyright aumono.com - 2022
+﻿// JavaScript Rest functions written by Eric Dee.
 
-import "./Ext-Dependencies/json-formatter-js/dist/json-formatter.umd.js"
+import "../../Ext-Dependencies/json-formatter-js/dist/json-formatter.umd.js"
 
 let OutputFormatter;
 
-export class AUMRestful {
+export class AUMRestFunctions {
 
     static GetViaHTTPS(urlBox, endpointBox, outputBox) {
         let localURL = urlBox.value;

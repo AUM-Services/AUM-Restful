@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/Content rendering.css",
+    "inputFile": "wwwroot/css/Content rendering.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Default layout.css",
+    "inputFile": "wwwroot/css/Default layout.scss"
+  }
+]

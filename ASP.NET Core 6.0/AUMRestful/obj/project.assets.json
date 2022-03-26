@@ -8630,11 +8630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0 [In use]\\AUMRestful\\AUMRestful.csproj",
+      "projectUniqueName": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0\\AUMRestful\\AUMRestful.csproj",
       "projectName": "AUMRestful",
-      "projectPath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0 [In use]\\AUMRestful\\AUMRestful.csproj",
+      "projectPath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0\\AUMRestful\\AUMRestful.csproj",
       "packagesPath": "C:\\Users\\eric_\\.nuget\\packages\\",
-      "outputPath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0 [In use]\\AUMRestful\\obj\\",
+      "outputPath": "C:\\development\\AUM Sites\\AUMRestful.com\\ASP.NET Core 6.0\\AUMRestful\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eric_\\AppData\\Roaming\\NuGet\\NuGet.Config",
