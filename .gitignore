@@ -1,6 +1,6 @@
 ####
 
-# AUMRestful.com:
+# Misc:
 Unused/
 
 # Vsual studio:
@@ -11,6 +11,9 @@ Unused/
 # Debug
 bin/
 Debug/
+
+# Dependencies
+obj/
 
 ####
 
