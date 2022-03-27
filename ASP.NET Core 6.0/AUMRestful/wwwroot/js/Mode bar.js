@@ -65,6 +65,11 @@ UpdatesNavButton.onclick = () => {
 
 SendNavButton.onclick = () => {
     BaffleText(SendButtonLeft)
-    StringCache.UpdateContextStrings()
-    StringCache.CombineStringsWithADecorator("URLContext", "/")
+    try {
+        StringCache.UpdateContextStrings()
+        StringCache.CombineStringsWithADecorator("URLContext", "/")
+    }
+    catch (error) {
+        console.error(error)
+    }
 }
